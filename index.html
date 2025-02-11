@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تبدیل اعداد انگلیسی به فارسی</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>تبدیل اعداد انگلیسی به فارسی</h1>
+        <input type="text" id="numberInput" placeholder="عدد انگلیسی را وارد کنید...">
+        <button onclick="convertNumber()">تبدیل به فارسی</button>
+        <p id="output"></p>
+        <button onclick="copyToClipboard()" id="copyButton" disabled>کپی عدد فارسی</button>
+    </div>
+    <div id="popup" class="popup">
+        <span class="popup-content" id="popupText"></span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
